@@ -1,0 +1,49 @@
+{
+  "name": "@ai-sprites/backend-developer",
+  "version": "0.1.0",
+  "description": "独立后端开发角色：实现服务、接口与数据访问，按需选装实践。",
+  "type": "module",
+  "bin": {
+    "sprite-backend-developer": "bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "templates",
+    "skills",
+    "README.md",
+    "LICENSE",
+    "docs"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "author": "Davy Chen",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ai-sprites/backend-developer.git"
+  },
+  "homepage": "https://github.com/ai-sprites/backend-developer#readme",
+  "bugs": {
+    "url": "https://github.com/ai-sprites/backend-developer/issues"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "skills",
+    "backend-developer"
+  ],
+  "sprite": {
+    "id": "backend-developer",
+    "role": true,
+    "practices": [
+      "sprite-backend-developer-services",
+      "sprite-backend-developer-data"
+    ],
+    "baseSkills": []
+  }
+}
